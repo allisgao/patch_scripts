@@ -1,0 +1,3 @@
+#!/bin/bash
+export IE_PATCHES=/u01/myebspatches/IE_PATCHES
+#export $IE_PATCHES
