@@ -1,0 +1,70 @@
+8919491
+
+SQL*Plus: Release 11.2.0.2.0 Production on Wed Sep 6 11:38:30 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.2.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+
+SQL> 
+    BUG_ID APPLICATION_SHORT_NAME
+---------- --------------------------------------------------
+BUG_NUMBER		       CREATION_DATE	  ARU_RELEASE_NAME
+------------------------------ ------------------ ------------------------------
+CREATED_BY LAST_UPDATE_DATE   LAST_UPDATED_BY TRACKABL
+---------- ------------------ --------------- --------
+BASELINE_NAME
+--------------------------------------------------------------------------------
+G LANG
+- ----
+    493302
+8919491 		       19-AUG-12	  R12
+	 5 19-AUG-12			    5 atg_pf
+
+    BUG_ID APPLICATION_SHORT_NAME
+---------- --------------------------------------------------
+BUG_NUMBER		       CREATION_DATE	  ARU_RELEASE_NAME
+------------------------------ ------------------ ------------------------------
+CREATED_BY LAST_UPDATE_DATE   LAST_UPDATED_BY TRACKABL
+---------- ------------------ --------------- --------
+BASELINE_NAME
+--------------------------------------------------------------------------------
+G LANG
+- ----
+B
+n US
+
+
+    BUG_ID APPLICATION_SHORT_NAME
+---------- --------------------------------------------------
+BUG_NUMBER		       CREATION_DATE	  ARU_RELEASE_NAME
+------------------------------ ------------------ ------------------------------
+CREATED_BY LAST_UPDATE_DATE   LAST_UPDATED_BY TRACKABL
+---------- ------------------ --------------- --------
+BASELINE_NAME
+--------------------------------------------------------------------------------
+G LANG
+- ----
+    523742
+8919491 		       19-AUG-12	  R12
+	 5 19-AUG-12			    5 atg_pf
+
+    BUG_ID APPLICATION_SHORT_NAME
+---------- --------------------------------------------------
+BUG_NUMBER		       CREATION_DATE	  ARU_RELEASE_NAME
+------------------------------ ------------------ ------------------------------
+CREATED_BY LAST_UPDATE_DATE   LAST_UPDATED_BY TRACKABL
+---------- ------------------ --------------- --------
+BASELINE_NAME
+--------------------------------------------------------------------------------
+G LANG
+- ----
+B
+n ZHS
+
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.2.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
