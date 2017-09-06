@@ -13,11 +13,7 @@ done
 cd  results/
 for rfile in `ls ./`
 do 
-#	echo $rfile
-#	lineNum= `wc -l $rfile|awk '{print $1}'`
-#	echo $lineNum
 	if [ `wc -l $rfile|awk '{print $1}'` == '16'  ] ;then 
 		echo $rfile is not patched.
-#		echo $rfile :  `wc -l $rfile|awk '{print $1}'`
 	fi
 done
