@@ -13,7 +13,7 @@ done
 cd  results/
 for rfile in `ls ./`
 do 
-	if [ `wc -l $rfile|awk '{print $1}'` == '16'  ] ;then 
+	if [ `wc -l $rfile|awk '{print $1}'` -le 16 ] ;then 
 		echo $rfile is not patched.
 	fi
 done
