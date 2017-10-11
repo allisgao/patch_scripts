@@ -13,6 +13,7 @@ source ./PATCH_ENV
 cd $PATCH_HOME/$PATCH_ID
 echo -e "\033[42;30m $PATCH_ID is patching... \033[0m"
 admsi.pl && adpatch driver=$PATCH_DRV 
+cd ..
 if [ -d "${PATCH_ID}_ZHS" ];then
 	cd $PATCH_HOME/${PATCH_ID}_ZHS
 	echo -e "\033[42;30m ${PATCH_ID}_ZHS is patching... \033[0m"
