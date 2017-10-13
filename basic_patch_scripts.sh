@@ -12,7 +12,9 @@ PATCH_DRV=u${PATCH_ID}.drv
 source ./PATCH_ENV
 cd $PATCH_HOME/$PATCH_ID
 echo -e "\033[42;30m $PATCH_ID is patching... \033[0m"
-admsi.pl && adpatch driver=$PATCH_DRV 
+# admsi.pl && adpatch driver=$PATCH_DRV 
+adpatch driver=$PATCH_DRV 
+# 切换至上级目录，否则不会找到中文补丁包
 cd ..
 if [ -d "${PATCH_ID}_ZHS" ];then
 	cd $PATCH_HOME/${PATCH_ID}_ZHS
